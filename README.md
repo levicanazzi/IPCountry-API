@@ -1,4 +1,4 @@
-# IpCountry API
+# IPCountry API
 
 A **.NET 8** REST API that identifies the country of an IP address, keeps that data up to date in the background, and generates aggregated reports by country. Built as a technical challenge, focusing on layered architecture, CQRS and clean code practices.
 
@@ -73,8 +73,8 @@ Highlighted patterns and decisions:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/levicanazzi/ip-country-api.git
-   cd ip-country-api
+   git clone https://github.com/levicanazzi/IPCountry-API.git
+   cd IPCountry-API
    ```
 
 2. Configure the connection string. Avoid storing the password in a file; use *user secrets*:
